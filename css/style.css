@@ -1,5 +1,12 @@
 body {
-	text-align: center;
 	background: black;
 	color: bisque;
+}
+
+h1 {
+	text-align: center;
+}
+
+footer {
+	text-align: center;
 }
