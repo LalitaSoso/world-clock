@@ -4,11 +4,8 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap"
-			rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;="stylesheet" />
 		<link rel="stylesheet" href="css/style.css" />
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data-1970-2030.min.js"></script>
@@ -18,26 +15,28 @@
 		<div class="container">
 			<h1>Are They Sleeping? <br /><span class="subtitle"> Worldly 🕰️ Clock</span></h1>
 
-			<select>
+			<select id="city">
 				<option value="">Select a city</option>
-				<option value="">Piscataway</option>
-				<option value="">Bayamón</option>
-				<option value="">Yamoussoukro</option>
+				<option value="America/Denver">Denver</option>
+				<option value="America/Puerto_Rico">Bayamón</option>
+				<option value="America/Anchorage">Anchorage</option>
 			</select>
 
-			<div class="city" id="the-bronx">
-				<div>
-					<h2>The Bronx 🇺🇸</h2>
-					<div class="date">September 6th 2023</div>
+			<div id="cities">
+				<div class="city" id="the-bronx">
+					<div>
+						<h2>The Bronx</h2>
+						<div class="date"></div>
+					</div>
+					<div class="time"></div>
 				</div>
-				<div class="time">1:44:44 <small> AM </small></div>
-			</div>
-			<div class="city" id="girona">
-				<div>
-					<h2>Girona 🇪🇸</h2>
-					<div class="date">September 6th 2023</div>
+				<div class="city" id="girona">
+					<div>
+						<h2>Girona</h2>
+						<div class="date"></div>
+					</div>
+					<div class="time"></div>
 				</div>
-				<div class="time">1:44:44 <small> AM </small></div>
 			</div>
 		</div>
 		<footer>
