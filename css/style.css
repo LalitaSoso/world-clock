@@ -58,7 +58,7 @@ select {
 
 .time {
 	font-size: 48px;
-	font-weight: bold;
+	font-weight: 500;
 }
 
 .time small {
