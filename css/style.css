@@ -6,7 +6,7 @@ body {
 .container {
 	color: burlywood;
 	max-width: 500px;
-	margin: 60px auto;
+	margin: 40px auto;
 	background: #572fa8;
 	padding: 30px;
 	border-radius: 10px;
@@ -53,14 +53,6 @@ select {
 	justify-content: space-between;
 	padding: 30px 0;
 	border-bottom: 1px dashed beige;
-}
-
-.city:last-child {
-	border: none;
-}
-
-.date {
-	opacity: 0.7;
 }
 
 .time {

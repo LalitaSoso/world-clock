@@ -20,6 +20,17 @@ function updateTime() {
 		gironaDateElement.innerHTML = gironaTime.format("ddd MMMM Do");
 		gironaTimeElement.innerHTML = gironaTime.format("h:mm:ss [<small>]A[</small>]");
 	}
+
+	// Los Angeles
+	let losAngelesElement = document.querySelector("#los-angeles");
+	if (losAngelesElement) {
+		let losAngelesDateElement = losAngelesElement.querySelector(".date");
+		let lostAngelesTimeElement = losAngelesElement.querySelector(".time");
+		let losAngelesTime = moment().tz("America/Los_Angeles");
+
+		losAngelesDateElement.innerHTML = losAngelesTime.format("ddd MMMM Do");
+		lostAngelesTimeElement.innerHTML = losAngelesTime.format("h:mm:ss [<small>]A[</small>]");
+	}
 }
 
 function updateCity(event) {
