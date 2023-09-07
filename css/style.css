@@ -1,11 +1,84 @@
 body {
-	background: gainsboro;
+	background: #0d3c44;
+	font-family: "Mulish", sans-serif;
+}
+
+.container {
+	color: burlywood;
+	max-width: 500px;
+	margin: 60px auto;
+	background: #572fa8;
+	padding: 30px;
+	border-radius: 10px;
 }
 
 h1 {
 	text-align: center;
+	line-height: 30px;
+	font-size: 50px;
+	font-weight: 600;
+}
+
+.subtitle {
+	font-size: 20px;
+}
+
+h2 {
+	margin: 0 0 5px;
+	font-size: 30px;
+	font-weight: 500;
+}
+
+select {
+	display: block;
+	width: 65%;
+	margin: 0 auto;
+	font-size: 18px;
+	border-radius: 4px;
+	padding: 10px;
+	font-family: "Mulish", sans-serif;
+	background-color: beige;
+}
+
+.city {
+	display: flex;
+	margin: 10px 0;
+	justify-content: space-between;
+	padding: 30px 0;
+	border-bottom: 1px dashed beige;
+}
+
+.city:last-child {
+	border: none;
+}
+
+.date {
+	opacity: 0.7;
+}
+
+.time {
+	font-size: 48px;
+	font-weight: bold;
+}
+
+.time small {
+	font-size: 24px;
+	vertical-align: middle;
 }
 
 footer {
+	color: beige;
+	opacity: 0.8;
 	text-align: center;
+}
+
+.git {
+	color: #8047ec;
+	text-decoration: none;
+}
+
+.git:hover {
+	cursor: pointer;
+	text-decoration: underline;
+	color: black;
 }
